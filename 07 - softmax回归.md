@@ -27,9 +27,7 @@
 - 回归估计一个连续值
 - 分类预测一个离散类别
 
-<div align="center">
-    <img src="../imgs/09/09-01.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214697-b94db4c4-548a-4777-94f3-eaa0392b04d1.png)
 
 #### 1.1 从回归到多类分类：
 
@@ -39,7 +37,7 @@
 - 自然区间R
 - 跟真实值的区别作为损失
 
-![image](https://user-images.githubusercontent.com/7146262/227214697-b94db4c4-548a-4777-94f3-eaa0392b04d1.png)
+![image](https://user-images.githubusercontent.com/7146262/227215364-be2b6925-6c41-4698-a01c-25f663cb5d29.png)
 
 ##### 分类：
 
@@ -47,7 +45,8 @@
 
 - 输出i是预测为第i类的置信度
 
-![image](https://user-images.githubusercontent.com/7146262/227214786-099c6075-60ec-4f55-9d24-3891e7fdf112.png)
+![image](https://user-images.githubusercontent.com/7146262/227215399-d4092c3b-2ea1-4e34-8008-fe8a46387bb5.png)
+
 
 ##### 均方损失：
 
