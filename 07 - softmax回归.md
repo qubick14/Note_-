@@ -39,9 +39,7 @@
 - 自然区间R
 - 跟真实值的区别作为损失
 
-<div align="center">
-    <img src="../imgs/09/09-02.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214697-b94db4c4-548a-4777-94f3-eaa0392b04d1.png)
 
 ##### 分类：
 
@@ -49,9 +47,7 @@
 
 - 输出i是预测为第i类的置信度
 
-  <div align="center">
-      <img src="../imgs/09/09-03.png" alt="image" align="center"width="500"/>
-  </div>
+![image](https://user-images.githubusercontent.com/7146262/227214786-099c6075-60ec-4f55-9d24-3891e7fdf112.png)
 
 ##### 均方损失：
 
@@ -124,9 +120,7 @@
 
 ### 2.损失函数
 
-<div align="center">
-    <img src="../imgs/09/09-04.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214824-e94ac291-2b7c-4b86-b3ab-f3ea2f20f6a3.png)
 
 #### 2.1 L2 Loss
 
@@ -134,9 +128,7 @@
 l(y,y^{'})=\frac{1}{2}(y-y^{'})^2
 )
 
-<div align="center">
-    <img src="../imgs/09/09-05.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214852-a714b8ad-b5bd-48d3-85ad-5cc23b1d6bb7.png)
 
 > 梯度会随着结果逼近而下降
 
@@ -146,17 +138,13 @@ l(y,y^{'})=\frac{1}{2}(y-y^{'})^2
 l(y,y^{'})=\lvert y-y^{'}\rvert
 )
 
-<div align="center">
-    <img src="../imgs/09/09-06.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214924-8a3fdf59-fbb7-4c43-bf27-a315733d2dd6.png)
 
 > 梯度保持不变，但在0处梯度随机
 
 #### 2.3Huber's Robust Loss
 
-<div align="center">
-    <img src="../imgs/09/09-07.png" alt="image" align="center"width="500"/>
-</div>
+![image](https://user-images.githubusercontent.com/7146262/227214965-fd0f785e-4ed8-4ace-b020-0639cda2baf8.png)
 
 > 结合L1 Loss和L2 Loss的优点
 
@@ -188,9 +176,7 @@ l(y,y^{'})=\lvert y-y^{'}\rvert
   show_images(X.reshape(18,28,28),2,9,titles=get_fashion_mnist_labels(y))
   ```
 
-  <div align="center">
-      <img src="../imgs/09/09-08.png" alt="image" align="center"width="500"/>
-  </div>
+![image](https://user-images.githubusercontent.com/7146262/227215179-d9fcf40e-0fd6-44b0-b60c-21727e8afb5d.png)
 
 ### 4.从零实现softmax回归
 
@@ -309,9 +295,8 @@ def softmax(X):
    predict_ch3(net, test_iter)
    ```
 
-   <div align="center">
-       <img src="../imgs/09/09-09.png" alt="image" align="center"width="500"/>
-   </div>
+ ![image](https://user-images.githubusercontent.com/7146262/227215261-fb3d1137-e879-40d4-91f7-0d9bda4e6340.png)
+ 
 
 ### 5.softmax的简洁实现
 
